@@ -20,6 +20,10 @@
     --font-size: 62.5%;
 }
 
+html {
+    line-height: normal;
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
