@@ -7,8 +7,8 @@
     --text-color: var(--color-black);
 
     /* NEW ORDER OF FONT-FAMILY VARIABLES */
-    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
 
     /* FONT SIZE VARIABLES */
     --font-size-small: 1.2rem;
