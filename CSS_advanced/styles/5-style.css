@@ -15,11 +15,9 @@
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-}
 
-/* REQUIREMENT: Set default font size of HTML to 62.5% */
-html {
-    font-size: 62.5%;
+    /* html element at 62.5% of their normal size */
+    --font-size: 62.5%;
 }
 
 body {
