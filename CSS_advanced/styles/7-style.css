@@ -6,25 +6,25 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 
-    /* NEW ORDER OF FONT-FAMILY VARIABLES */
+    /* FONT FAMILIES */
     --font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
 
-    /* FONT SIZE VARIABLES */
+    /* FONT SIZES */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
 
-    /* html element at 62.5% of their normal size */
     --font-size: 62.5%;
 
-    /* NEW FONT WEIGHT VARIABLES */
+    /* FONT WEIGHTS */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
 }
 
+/* html must exist, cannot be empty */
 html {
     --html-required-flag: true;
 }
@@ -32,8 +32,8 @@ html {
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font-size: var(--font-size-medium); /* APPLY MEDIUM FONT SIZE */
-    font-weight: var(--font-weight-regular); /* SET BODY FONT WEIGHT */
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
 }
 
 a {
@@ -54,5 +54,5 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold); /* HEADINGS BOLD */
+    font-weight: var(--font-weight-bold);
 }
