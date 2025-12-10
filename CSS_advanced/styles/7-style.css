@@ -3,6 +3,9 @@
     --font-family-title:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/* Required html selector (cannot be empty) */
+html { --html-required-flag: true; }
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -23,11 +26,6 @@
     /* FONT WEIGHTS */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-}
-
-/* html must exist, cannot be empty */
-html {
-    --html-required-flag: true;
 }
 
 body {
